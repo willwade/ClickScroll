@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F365FCA1504A324001694D8 /* ScrollClick.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3F365FC91504A324001694D8 /* ScrollClick.icns */; };
+		9BCF02EF15005FD800DCAD8C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCF02EE15005FD800DCAD8C /* Cocoa.framework */; };
+		9BCF02F915005FD800DCAD8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF02F715005FD800DCAD8C /* InfoPlist.strings */; };
+		9BCF02FB15005FD800DCAD8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCF02FA15005FD800DCAD8C /* main.m */; };
+		9BCF02FF15005FD800DCAD8C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF02FD15005FD800DCAD8C /* Credits.rtf */; };
+		9BCF030215005FD800DCAD8C /* LBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCF030115005FD800DCAD8C /* LBAppDelegate.m */; };
+		9BCF030515005FD800DCAD8C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF030315005FD800DCAD8C /* MainMenu.xib */; };
+		9BCF03141500702400DCAD8C /* arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF03131500702400DCAD8C /* arrow_up.png */; };
+		9BCF03161500709000DCAD8C /* arrow_dn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF03151500709000DCAD8C /* arrow_dn.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F365FC91504A324001694D8 /* ScrollClick.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ScrollClick.icns; sourceTree = "<group>"; };
+		9BCF02EA15005FD800DCAD8C /* ClickScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCF02EE15005FD800DCAD8C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9BCF02F115005FD800DCAD8C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9BCF02F215005FD800DCAD8C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9BCF02F315005FD800DCAD8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BCF02F615005FD800DCAD8C /* ClickScroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClickScroll-Info.plist"; sourceTree = "<group>"; };
+		9BCF02F815005FD800DCAD8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BCF02FA15005FD800DCAD8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BCF02FC15005FD800DCAD8C /* ClickScroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClickScroll-Prefix.pch"; sourceTree = "<group>"; };
+		9BCF02FE15005FD800DCAD8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9BCF030015005FD800DCAD8C /* LBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAppDelegate.h; sourceTree = "<group>"; };
+		9BCF030115005FD800DCAD8C /* LBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAppDelegate.m; sourceTree = "<group>"; };
+		9BCF030415005FD800DCAD8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9BCF03131500702400DCAD8C /* arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_up.png; path = ClickScroll/arrow_up.png; sourceTree = "<group>"; };
+		9BCF03151500709000DCAD8C /* arrow_dn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_dn.png; path = ClickScroll/arrow_dn.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BCF02E715005FD800DCAD8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCF02EF15005FD800DCAD8C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BCF02DF15005FD800DCAD8C = {
+			isa = PBXGroup;
+			children = (
+				9BCF03171500713500DCAD8C /* Icons */,
+				9BCF02F415005FD800DCAD8C /* ClickScroll */,
+				9BCF02ED15005FD800DCAD8C /* Frameworks */,
+				9BCF02EB15005FD800DCAD8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BCF02EB15005FD800DCAD8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BCF02EA15005FD800DCAD8C /* ClickScroll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BCF02ED15005FD800DCAD8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BCF02EE15005FD800DCAD8C /* Cocoa.framework */,
+				9BCF02F015005FD800DCAD8C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BCF02F015005FD800DCAD8C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BCF02F115005FD800DCAD8C /* AppKit.framework */,
+				9BCF02F215005FD800DCAD8C /* CoreData.framework */,
+				9BCF02F315005FD800DCAD8C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9BCF02F415005FD800DCAD8C /* ClickScroll */ = {
+			isa = PBXGroup;
+			children = (
+				9BCF030015005FD800DCAD8C /* LBAppDelegate.h */,
+				9BCF030115005FD800DCAD8C /* LBAppDelegate.m */,
+				9BCF030315005FD800DCAD8C /* MainMenu.xib */,
+				9BCF02F515005FD800DCAD8C /* Supporting Files */,
+			);
+			path = ClickScroll;
+			sourceTree = "<group>";
+		};
+		9BCF02F515005FD800DCAD8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F365FC91504A324001694D8 /* ScrollClick.icns */,
+				9BCF02F615005FD800DCAD8C /* ClickScroll-Info.plist */,
+				9BCF02F715005FD800DCAD8C /* InfoPlist.strings */,
+				9BCF02FA15005FD800DCAD8C /* main.m */,
+				9BCF02FC15005FD800DCAD8C /* ClickScroll-Prefix.pch */,
+				9BCF02FD15005FD800DCAD8C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BCF03171500713500DCAD8C /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				9BCF03151500709000DCAD8C /* arrow_dn.png */,
+				9BCF03131500702400DCAD8C /* arrow_up.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BCF02E915005FD800DCAD8C /* ClickScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BCF030815005FD800DCAD8C /* Build configuration list for PBXNativeTarget "ClickScroll" */;
+			buildPhases = (
+				9BCF02E615005FD800DCAD8C /* Sources */,
+				9BCF02E715005FD800DCAD8C /* Frameworks */,
+				9BCF02E815005FD800DCAD8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickScroll;
+			productName = ClickScroll;
+			productReference = 9BCF02EA15005FD800DCAD8C /* ClickScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BCF02E115005FD800DCAD8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = LCB;
+			};
+			buildConfigurationList = 9BCF02E415005FD800DCAD8C /* Build configuration list for PBXProject "ClickScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BCF02DF15005FD800DCAD8C;
+			productRefGroup = 9BCF02EB15005FD800DCAD8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BCF02E915005FD800DCAD8C /* ClickScroll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BCF02E815005FD800DCAD8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCF02F915005FD800DCAD8C /* InfoPlist.strings in Resources */,
+				9BCF02FF15005FD800DCAD8C /* Credits.rtf in Resources */,
+				9BCF030515005FD800DCAD8C /* MainMenu.xib in Resources */,
+				9BCF03141500702400DCAD8C /* arrow_up.png in Resources */,
+				9BCF03161500709000DCAD8C /* arrow_dn.png in Resources */,
+				3F365FCA1504A324001694D8 /* ScrollClick.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BCF02E615005FD800DCAD8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCF02FB15005FD800DCAD8C /* main.m in Sources */,
+				9BCF030215005FD800DCAD8C /* LBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BCF02F715005FD800DCAD8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCF02F815005FD800DCAD8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9BCF02FD15005FD800DCAD8C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCF02FE15005FD800DCAD8C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9BCF030315005FD800DCAD8C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCF030415005FD800DCAD8C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BCF030615005FD800DCAD8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9BCF030715005FD800DCAD8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9BCF030915005FD800DCAD8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClickScroll/ClickScroll-Prefix.pch";
+				INFOPLIST_FILE = "ClickScroll/ClickScroll-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BCF030A15005FD800DCAD8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClickScroll/ClickScroll-Prefix.pch";
+				INFOPLIST_FILE = "ClickScroll/ClickScroll-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BCF02E415005FD800DCAD8C /* Build configuration list for PBXProject "ClickScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCF030615005FD800DCAD8C /* Debug */,
+				9BCF030715005FD800DCAD8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCF030815005FD800DCAD8C /* Build configuration list for PBXNativeTarget "ClickScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCF030915005FD800DCAD8C /* Debug */,
+				9BCF030A15005FD800DCAD8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BCF02E115005FD800DCAD8C /* Project object */;
+}
