@@ -10,4 +10,4 @@ To scroll the most foreground window with the Mouse/Pointer
 Not currently working with [dwellclicker](http://dwellclick.com) 
 
 **Download**
-To download the Final Build [click here](https://github.com/downloads/willwade/ClickScroll/ClickScroll.app)
+To download the Final Build [click here](https://github.com/downloads/willwade/ClickScroll/ClickScroll.zip)
